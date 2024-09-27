@@ -4,3 +4,6 @@
 **/*.d
 **/.cache
 **/compile_commands.json
+ex00/whatever
+ex01/iter
+ex02/Array
