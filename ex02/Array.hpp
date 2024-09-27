@@ -3,7 +3,7 @@
 #include <exception>
 #include <cstring>
 
-template<class T>
+template<typename T>
 class Array
 {
 public:

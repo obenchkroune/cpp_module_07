@@ -9,7 +9,7 @@ void printElement(T &element) {
 
 int main() {
     char char_arr[] = {'a', 'b', 'c', 'd', 'e'};
-    iter(char_arr, 5, &printElement);
+    iter(char_arr, 5, printElement);
     std::cout << std::endl;
 
     int int_arr[] = {1, 2, 3, 4, 5};

@@ -17,5 +17,11 @@ int main( void ) {
 	std::cout << "c = " << c << ", d = " << d << std::endl;
 	std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
+
+	std::string str1 = "Hello";
+	std::string str2 = "World";
+	std::cout << "str1 = " << str1 << ", str2 = " << str2 << std::endl;
+	::swap(str1, str2);
+	std::cout << "str1 = " << str1 << ", str2 = " << str2 << std::endl;
 	return 0;
 }
